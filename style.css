@@ -1,0 +1,32 @@
+body
+{
+    background-color: mediumturquoise;
+}
+h1
+{
+    color: rgb(28, 0, 255);
+    background-color: cornsilk;
+}
+#show_sketch
+{
+    float: right;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: Amzing_ting;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes Amzing_ting
+{
+    from{box-shadow: 10px 10px 100px gold;}
+    to{box-shadow: 10px 10px 100px orangered;}
+}
+p
+{
+    padding: 10px;
+    font-size: 25px;
+}
